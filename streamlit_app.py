@@ -105,7 +105,7 @@ with col3:
 st.write("----")
 
 st.markdown(
-    "<h2 style='text-align: center; color: black;'>Get subscription status of LA users</h2>",
+    "<h2 style='text-align: center; color: black;'>Get Advance course status of LA users</h2>",
     unsafe_allow_html=True,
 )
 
