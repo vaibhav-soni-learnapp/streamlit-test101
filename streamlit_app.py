@@ -154,6 +154,9 @@ if st.button("Fetch Data"):
         user_data["status"] = user_data["status"].apply(
             lambda x: x[:-11] if len(x) > 15 else x
         )
+        user_data["userID"] = user_data["status"].apply(
+            lambda x: x[:-12] if len(x) > 15 else x
+        )
 
         @st.cache
         def convert_df(df):
